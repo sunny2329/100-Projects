@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.pexels.com/photos/1331750/pexels-photo-1331750.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.clock{
+    background-color: transparent;
+    box-shadow: 12px 12px 12px 5px black;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 15px;
+    display: flex;
+    color: #fff;
+}
+
+.time{
+    font-size: 4rem;
+    margin-right: 10px;
+}
+
+
+
+
+
+
