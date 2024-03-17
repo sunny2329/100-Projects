@@ -1,62 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
 body{
     background-color: #212121;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    user-select: none;
+    
 }
 
-.container{
+.main-box{
+    /* background-color: red; */
+    padding: 50px;
+    position: relative;
+    width: 500px;
+    top: 30px;
+    left: 200px;
+    
+}
+
+h1{
+    color: #fff;
+    font-weight: 500;
+    font-family: "DM Sans";
+    font-size: 3rem;
+}
+
+span{
+    font-weight: 500;
+    text-decoration: underline;
+    color: orange;
+}
+
+.input{
     display: flex;
-    flex-direction: column;
-    min-height: 45vh;
-    background-color: coral;
-    padding: 10px;
+    background-color: #fff;
+    font-size: 3rem;
+    padding: 15px;
     border-radius: 10px;
-    justify-content: space-evenly;
-    min-width: 30%;
+    margin: 40px 0;
     align-items: center;
-}
-
-.display{
-    display: flex;
-    background-color: #313131;
-    padding: 10px;
-    width: 100%;
     justify-content: space-between;
 }
 
-.display #disp{
-    width: 77%;
+.input input{
+    width: 300px;
+    padding: 10px;
+    margin-right: 10px ;
+    border-radius: 10px;
     font-size: 1.5rem;
-    border-radius: 5px;
-    padding: 5px;
-    border: none;
-    outline: none;
+    border: 0;
+    outline: 0;
 }
 
-.display button{
-    font-size: 1rem;
-    padding: 5px;
-    cursor: pointer;
-    border-radius: 5px;
+input:active{
+    border: 0;
+    outline: 0;
 }
 
-.comps{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
-}
-
-.comps input{
+i{
+    font-size: 2.5rem;
+    color: green;
+    font-weight: 800;
     cursor: pointer;
 }
+
+button{
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+
+
+
 
