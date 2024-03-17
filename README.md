@@ -8,3 +8,4 @@ Making 100 projects to learn Javascript.
 5. Tic-Tac-Toe [Link](https://65ed8433731082470595812f--eloquent-nougat-3645db.netlify.app/)
 6. Rock-Paper-Scissors [Link](https://sunny2329.github.io/Rock-Paper-Scissors/)
 7. Calculator [Link](https://65f0b7b73d76e73c1a48a3db--moonlit-otter-36039a.netlify.app/)
+8. Password Generator [Link](https://sunny2329.github.io/Password-Generator/)
